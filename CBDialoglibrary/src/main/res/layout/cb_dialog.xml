@@ -37,6 +37,7 @@
 
     <!-- 对话框标题 和图标 -->
     <TextView
+        android:padding="10dp"
         android:background="@drawable/bg_title"
         android:id="@+id/dialog_title"
         style="@style/dialog_title_style"
@@ -56,10 +57,12 @@
         android:orientation="vertical">
 
         <TextView
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
             android:id="@+id/dialog_message"
             style="@style/dialog_msg_style"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
             android:text="this is a message"
             android:textSize="15dp" />
     </LinearLayout>
@@ -70,7 +73,6 @@
         android:id="@+id/dialog_btnlayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
         android:orientation="vertical">
 
         <View
