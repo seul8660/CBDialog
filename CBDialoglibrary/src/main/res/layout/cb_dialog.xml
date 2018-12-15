@@ -37,6 +37,7 @@
 
     <!-- 对话框标题 和图标 -->
     <TextView
+        android:background="@drawable/bg_title"
         android:id="@+id/dialog_title"
         style="@style/dialog_title_style"
         android:layout_gravity="center"
