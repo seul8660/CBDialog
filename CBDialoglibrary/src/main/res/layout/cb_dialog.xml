@@ -37,7 +37,8 @@
 
     <!-- 对话框标题 和图标 -->
     <TextView
-        android:padding="10dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="5dp"
         android:background="@drawable/bg_title"
         android:id="@+id/dialog_title"
         style="@style/dialog_title_style"
